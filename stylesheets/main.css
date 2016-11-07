@@ -1,27 +1,12 @@
-
-<style type="text/css">
-
-h1 {
-    color: white;
-    font-family: Amatic SC;
-    font-size: 81px;
-    text-align: center;
-    text-decoration:underline
+section#section_1{
+  background: blue;
+  background: pink;
+}
+.classy_section{
+  background: green
 }
 
 h2 {
   text-align: center;
   color: blue;
 }
-
-body {
-	background-color:#676570;
-    color:#ECECEC;
-	font-family: Amatic SC;
-			}
-
-p {
-    font-family: verdana;
-    font-size: 15px;
-}
-</style>
