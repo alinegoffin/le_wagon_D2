@@ -1,12 +1,63 @@
-section#section_1{
-  background: blue;
-  background: pink;
-}
-.classy_section{
-  background: green
+* {
+  box-sizing: border-box;
 }
 
-h2 {
-  text-align: center;
-  color: blue;
+body {
+  padding-top: 61px;
 }
+
+aside a {
+display: inline-block;
+padding: 10px;
+background: grey;
+width: 100%
+margin-bottom:5px;
+text-decoration: none;
+color: #333;
+transition: all is linear;
+position: relative;
+}
+
+aside a:hover
+{background: red;
+margin-left: 10px;
+}
+
+nav {
+  background: #666;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.container {
+  padding: 40px 0;
+}
+
+section {
+  margin: 20px 0;
+  margin-left: 200px;
+}
+
+aside { 
+  width: 200px;
+  float: left;
+}
+
+aside ul { 
+  padding: 0;
+}
+</style>
+Add Comment Collapse
+
